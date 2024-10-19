@@ -1,0 +1,81 @@
+
+
+
+Report
+=================================
+1. No of daily website visit
+2. No of daily Home page visit
+3. No of daily news view
+4. Individual news, notice, document view
+5. FAQ visit report
+6. Contact Us form submission report
+7. Academic Calendar event  view report
+8. Page wise possible stack holder specific report
+
+    Page                    Possible Stack Holder
+    ---------------         -----------------------------------
+    Tuition Fee             Admission Department
+    Contact Us              Public Relation / Support Team
+    FAQ                     Support Team
+    News                    Responsible Department
+    Notice                  Responsible Department
+    .............           .........................................
+
+9. User and department wise content create/publishing report
+
+    New ( June 2024)
+        Department              Count
+        ---------------         -----------------------------------
+        CSE                     5
+        EEE                     6
+        .............           .........................................
+
+ 10.  Research Report
+
+        Research Entity             Views
+    ----------------------------------------------
+        CSE Journal            4
+        Business Journal        10
+
+        Volume A                 10
+        Volume N                20
+
+        Article AA              58
+        Article NNN             100
+
+
+ 10.  Website Content  Report
+    Document Upload Report
+    New FAQ entry amount
+
+11. Visitor Action and response report
+    Visitor Message Entry
+    Visitor Message Reply
+
+
+
+
+
+Features
+===================================
+1. Visitor comments on news and notice content
+2. Sending email notification when news/notice has been published at the website to the department authority
+3. Add reference of the news person profile link in news content
+4. Add OG profile of news content
+5. Email Configuration
+6. Contact Us form query foreword to responsible person by email
+7. Add new query form at Faq page new issue
+
+
+ <a href="{{ url()->previous() }}" class="btn btn-sm btn-info">Back</a>
+
+
+//        $dummypeople = array("Joy Beasley", "Stanley Crane", "Della Portillo", "Wallace Cervantes", "Aylin Morrison", "Maximus Hanson", "Mariana Rosales", "Wilder Skinner", "Mara Sims", "Brian Truong", "Judith Ellis", "Cole McClain", "Marleigh Bond", "Roger Roach", "Lyanna Christian", "Ledger Henry", "Summer Harrington", "Omari Bernard", "Barbara Stone", "Finn Bond", "Alena Goodman", "Philip Becker", "Laura Whitney", "Jeffery Hughes", "Samantha Hoover", "Jaziel Barajas", "Keilani Hammond", "Francis Ramos", "Alice Ortiz", "Landon Campbell", "Addison Dixon", "Camden Terry", "Wren Bradshaw", "Emory Foster", "Brielle Gallagher", "Marcos Norton", "Kylee Hull", "Salem Alvarez", "Leilani Craig", "Odin Cardenas", "Raven Vasquez", "Rowan Acosta", "Kaia May", "Finley Wilcox", "Ashlyn Friedman", "Darwin Franklin", "Angela Manning", "Seth Weaver", "Teagan Schroeder", "Izaiah Tate", "Skye Patel", "Parker Fitzgerald", "Marlee Meza", "Lucian Harding", "Aniya Mejia", "Atticus Guerrero", "Margot Garcia", "James Bennett", "Josephine Robinson", "Matthew Bates", "Madilyn Garrison", "Noe Joseph", "Gracelynn Hanna", "Aydin Bauer", "Haley Mendez", "Arthur Bowers", "Elisa Garner", "Sage Nunez", "Mya Enriquez", "Elisha Powell", "Vivian Lamb", "Kaysen Sellers", "Mercy Graham", "Giovanni Townsend", "Azalea Costa", "Kenji Daugherty", "Magdalena Brock", "Julio Young", "Zoey Clements", "Fisher Lynch", "Malia Esparza", "Carl Frost", "Paula Hale", "Ezequiel Pineda", "Nola Fleming", "Fernando Henson", "Kinslee Horn", "Wilson Mosley", "Zaniyah Bradford", "Ander Juarez", "Juliet Barnett", "Stephen Houston", "Lylah Massey", "Donald Guerra", "Edith Garner", "Sage Curtis", "Alexis Leblanc", "Braden Stewart", "Maya Gill", "Matthias Floyd", "Yaretzi Chang", "Ari Hart", "Gemma Villa", "Clay Higgins", "Leighton Bravo", "Genesis McFarland", "Annika Case", "Bentlee Kennedy", "Brianna Thompson", "Theodore McKee", "Kori Hughes", "Everett Crawford", "Aubree Stout", "Callahan Peters", "Leila Reyna", "Reginald Herring", "Denver English", "Junior Ruiz", "Emery Calderon", "Oakley Parsons", "Maia Norman", "Aziel Strickland", "Nia Villanueva", "Huxley Morrison", "Rebecca Morris", "Christian Conway", "Ryann Douglas", "Derek Leonard", "Demi Khan", "Kendrick Owens", "Amaya Hall", "Thomas Huang", "Francesca McBride", "Denver Peterson", "Caroline Atkins", "Cason Santos", "Alana Scott", "Leo Underwood", "Ensley Day", "Kayson Patton", "Lorelei Lamb", "Kaysen Ibarra", "Madilynn Knapp", "Boden Lewis", "Ellie Brooks", "Jordan Nicholson", "Justice Santana", "Mohamed David", "Haylee Todd", "Baylor Matthews", "Lila Pennington", "Bobby Mason", "Sienna Bush", "Tyson Mitchell", "Willow Larson", "Rafael Pearson", "Kiara Lu", "Duncan Schroeder", "Cameron White", "Aiden Stark", "Kamilah Jaramillo", "Riggs Moss", "Bianca Buchanan", "Enrique O’Neal", "Treasure Odom", "Kylian Schultz", "Briella Dennis", "Emanuel Robbins", "Stevie Ward", "Jameson Hughes", "Samantha McCormick", "Jasiah Villanueva", "Monroe Velazquez", "Drew Corona", "Marianna Bond", "Roger Daniels", "Ember Arias", "Alec Reeves", "Lana Carroll", "Oscar Ford", "Alexandra Bradford", "Ander Middleton", "Madalyn Willis", "Remington Lindsey", "Colette Fitzgerald", "Peyton Kennedy", "Brianna Sloan", "Ocean McIntyre", "Rebekah Stephenson", "Joe Hudson", "Kamila Peck", "Yousef Pitts", "Nala Gibbs", "Deacon Whitney", "Madalynn Chase", "Otis Peters", "Leila Lopez", "Michael Perry", "Clara Juarez", "Joaquin White", "Layla Krueger", "Jones Glenn", "Blaire Morales", "Aaron Hobbs", "Lacey Person", "Moses Huerta", "Dulce Shaw", "Elliot Sierra", "Marceline Hickman", "Jakobe Lawrence", "Lauren Maynard", "Landry Schroeder", "Cameron Miller", "Benjamin Spence", "Aislinn Melton", "Lennon Mendez", "Londyn McKinney", "Romeo Mathis", "Anne Vance", "Casen Finley", "Jovie Palmer", "Theo Esparza", "Ramona Carroll", "Oscar Hardy", "Jessica Morrow", "Kyree McFarland", "Annika Barton", "Cassius Melendez", "Bethany Proctor", "Vance Petersen", "Fernanda Short", "Hezekiah Rich", "Sunny Dickson", "Maxton Henson", "Kinslee Ahmed", "Harry Hurley", "Rylan McIntyre", "Eliseo Garner", "Jacqueline Spears", "Ameer Reynolds", "Isabelle Montes", "Darren Valentine", "August Xiong", "Azrael Gates", "Melina Stafford", "Alfredo Warner", "Wynter Miller", "Benjamin Sparks", "Aisha Stone", "Finn Valenzuela", "Henley Benitez", "Justice Bentley", "Jaylin Costa", "Kenji Rojas", "Adaline Pennington", "Bobby Young", "Zoey Blake", "Zyaire McIntyre", "Rebekah Strong", "Axl Barron", "Anya Cabrera", "Cade Gallagher", "Elliott Ellison", "Kye Kennedy", "Brianna Sanders", "Jose Pugh", "Landry Phan", "Maison Boone", "Mariam Peters");
+
+//        for($i=1; $i<=count($dummypeople); $i++)
+//        {
+//            DB::table('people')
+//                ->where('id', $i)
+//                ->update(['fullName' => $dummypeople[$i]]);
+//        }
+

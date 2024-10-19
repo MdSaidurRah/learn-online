@@ -1,0 +1,8 @@
+[04-Dec-2023 10:28:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/greenedu/public_html/siteadmin.green.edu.bd/database/migrations/2023_08_07_143925_create_event_content_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/greenedu/public_html/siteadmin.green.edu.bd/database/migrations/2023_08_07_143925_create_event_content_table.php on line 7
+[04-Dec-2023 11:18:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/greenedu/public_html/siteadmin.green.edu.bd/database/migrations/2023_09_07_145127_create_message_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/greenedu/public_html/siteadmin.green.edu.bd/database/migrations/2023_09_07_145127_create_message_table.php on line 7

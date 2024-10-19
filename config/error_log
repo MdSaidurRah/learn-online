@@ -1,0 +1,4 @@
+[04-Dec-2023 10:10:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/greenedu/public_html/siteadmin.green.edu.bd/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/greenedu/public_html/siteadmin.green.edu.bd/config/app.php on line 19

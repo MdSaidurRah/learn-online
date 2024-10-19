@@ -1,0 +1,4 @@
+[04-Dec-2023 11:20:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Console\Kernel" not found in /home/greenedu/public_html/siteadmin.green.edu.bd/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/greenedu/public_html/siteadmin.green.edu.bd/app/Console/Kernel.php on line 8

@@ -1,0 +1,4 @@
+[04-Dec-2023 11:21:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/greenedu/public_html/siteadmin.green.edu.bd/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/greenedu/public_html/siteadmin.green.edu.bd/app/Http/Middleware/EncryptCookies.php on line 7
